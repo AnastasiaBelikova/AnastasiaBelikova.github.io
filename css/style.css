@@ -169,9 +169,16 @@ border-radius: 25px;
 	justify-content: center;
 	max-height: 400px;
 }
+.table-text-top {
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+}
 .table-text {
 	display: flex;
+    flex-direction: column;
 	justify-content: center;
+    padding-bottom: 10px;
 }
 input {
 	padding: 10px;
